@@ -1,0 +1,84 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #7794c6;
+  /* lightblue */
+  font-family: 'Caveat', cursive;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+}
+
+/*  yellow orange background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f7b669; }   /*yellow orange*/
+
+  .div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .center-screen {
+    display: flex; /*sorry Craig, I added flex */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+  a:after {
+    padding: 100 px;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+
+  footer {
+    text-align: center;
+    height: 30px;
+  }
+
+  header {
+    background-color: #466995;
+    border-bottom: 5px solid #466995;
+    position: fixed;
+    width: 80%;
+    z-index: 30;
+  }
+
+  body {
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #143059;
+  }
+
+  li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 85px;
+  }
+
+  p
+   {
+    color: #000; /*black text*/
+    font-size: 16 px;
+    padding: 30px;
+    width: 1000px;
+  }
